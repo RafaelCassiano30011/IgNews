@@ -1,0 +1,28 @@
+.ButtonSign {
+  height: 3rem;
+  border-radius: 3rem;
+  background-color: var(--gray-850);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  transition: 0.3s all;
+  svg {
+    width: 28px;
+    height: 20px;
+    &:first-child {
+      margin-right: 1rem;
+    }
+    &.CloseIcon {
+      margin-left: 1rem;
+    }
+  }
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}
