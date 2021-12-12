@@ -16,7 +16,7 @@ export const SignButton = () => {
       }}
     >
       <FaGithub color="#04D361" />
-      {session.user.name}
+      {session.user?.name}
       <FiX className={styles.CloseIcon} color="#737380" />
     </button>
   ) : (
