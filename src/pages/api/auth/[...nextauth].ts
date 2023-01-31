@@ -63,4 +63,8 @@ export default NextAuth({
       }
     },
   },
+  pages: {
+    signIn: "/api/auth/signin",
+    signOut: "/api/auth/signout",
+  },
 });
